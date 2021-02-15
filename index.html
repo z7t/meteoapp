@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="theme" href="style.css">
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <section id="sectionheader">
+            <article>
+                <form id="villeform">
+                    <input placeholder="rechercher une ville" name="ville" id="villeinput" type="text">
+                </form>
+            </article>
+        </section>
+        <section>
+            <h1>meteo de la semaine pour marseille</h1>
+        </section>
+    </header>
+    <main>
+        <section id="todaymeteo">
+            <article id="dateettempsdujour">
+                <p>14:44:00</p>
+                <p>12 fevrier 2021</p>
+            </article>
+            <article id="todaymeteoarticle">
+                <span id="sunormoonicon" class="material-icons">brightness_high</span>
+                <h2 id="temperaturenow">-- °C</h2>
+            </article>
+        </section>
+        <section>
+            <h2 id="provhin">prochaine predictions</h2>
+            <article>
+                <ul id="meteolist">
+                    
+                </ul>
+            </article>
+        </section>
+        <section>
+            <article>
+                <div id="chardiv">
+                    <canvas id="myChart" ></canvas>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+<script src="chartscript.js"></script>
+</html>

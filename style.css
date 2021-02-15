@@ -1,0 +1,88 @@
+@keyframes sunny{
+    from{
+        color: #ffb200;
+    }
+    to{
+        color: yellow;
+    }
+}
+body{
+    background: rgb(186,172,4);
+    background: linear-gradient(0deg, rgba(186,172,4,1) 0%, rgba(130,175,0,1) 20%, rgba(0,212,255,1) 100%);
+    background-attachment: fixed;
+    /* background-color: whjoiyte; */
+    margin: 0;
+}
+#sectionheader{
+    background-color: #FFFFFF50;
+}
+#villeinput{
+    font-size: 2vw;
+    margin: 10px;
+    background: #ffffffa6;
+    text-align: center;
+    border: solid #ffffff73 4px;
+    font-family: 'Titillium Web';
+    width: 65%;
+    font-weight: 200;
+}
+#villeform{
+    text-align: center;
+}
+h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: calc(5px + 4vw);
+    margin: 20px;
+}
+h2{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+}
+#dateettempsdujour{
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    margin: auto;
+    margin-left: 0;
+}
+#dateettempsdujour > p{
+    margin: 0;
+}
+section#todaymeteo{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#todaymeteoarticle{
+    display: grid;
+}
+#temperaturenow{
+    text-align: center;
+    font-size: calc(6px + 4vw);
+}
+p{
+    font-family: 'Titillium Web', sans-serif;
+}
+#chardiv{
+    width: 99vw;
+}
+#provhin{
+    font-weight: 500;
+    font-size: calc(4vw);
+}
+#meteolist{
+    list-style: none;
+    font-size: calc(6px + 2vw);
+}
+#myChart{
+    height: 400px !important;
+    width: 100% !important;
+}
+#sunormoonicon{
+    animation: sunny 1s infinite alternate-reverse ease;
+    font-size: 15vw;
+    color: yellow;
+}

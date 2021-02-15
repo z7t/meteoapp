@@ -1,0 +1,79 @@
+@keyframes sunny{
+    from{
+        color: gray;
+    }
+    to{
+        color: gainsboro;
+    }
+}
+body{
+    background: rgb(52,52,52);
+    background: linear-gradient(178deg, rgba(52,52,52,1) 0%, rgba(0,0,0,1) 100%);
+    background-attachment: fixed;
+    margin: 0;
+}
+h1{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    font-size: calc(5px + 4vw);
+    margin: 20px;
+}
+h2{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: xx-large;
+    margin: 20px;
+}
+#dateettempsdujour{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+    font-size: 5vw;
+    margin: auto;
+    margin-left: 0;
+}
+#dateettempsdujour > p{
+    color: white;
+    margin: 0;
+}
+section#todaymeteo{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#todaymeteoarticle{
+    color: white;
+    display: grid;
+}
+#temperaturenow{
+    color: white;
+    text-align: center;
+    font-size: calc(6px + 4vw);
+}
+p{
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#chardiv{
+    color: white;
+    width: 99vw;
+}
+#provhin{
+    font-weight: 500;
+    font-size: calc(4vw);
+}
+#meteolist{
+    list-style: none;
+    font-size: calc(6px + 2vw);
+}
+#myChart{
+    height: 270px !important;
+    width: 100% !important;
+}
+#sunormoonicon{
+    animation: sunny 1s infinite alternate-reverse ease;
+    font-size: 15vw;
+    color: yellow;
+}
